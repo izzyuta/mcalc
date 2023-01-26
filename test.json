@@ -1,7 +1,7 @@
 {
     "fluido" : "GLP",
-    "patm" : 1.0,
-    "alta presion" : {
+    "p_atm" : 1.0,
+    "alta_presion" : {
         "enabled" : true,
         "formula" : "COX",
         "p_r_ini": 1.5,
@@ -10,14 +10,14 @@
                 "id": "A-B",
                 "diametro" : 102,
                 "longitud" : 10.02,
-                "lonEquiv" : 5.1,
+                "lon_equiv" : 5.1,
                 "Q": 5.21
             },
             {
                 "id": "B-C",
                 "diametro" : 102,
                 "longitud" : 30,
-                "lonEquiv" : 2.5,
+                "lon_equiv" : 2.5,
                 "Q": 3.5
             }
         ]
