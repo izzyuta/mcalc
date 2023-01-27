@@ -7,19 +7,22 @@
         "p_r_ini": 1.5,
         "tramos" : [
             {
-                "id": "A-B",
+                "label" : "A-B",
                 "diametro" : 102,
                 "longitud" : 10.02,
                 "lon_equiv" : 5.1,
                 "Q": 5.21
             },
             {
-                "id": "B-C",
+                "label" : "B-C",
                 "diametro" : 102,
                 "longitud" : 30,
                 "lon_equiv" : 2.5,
                 "Q": 3.5
             }
         ]
+    },
+    "baja_presion" : {
+        "enabled" : false
     }
 }
